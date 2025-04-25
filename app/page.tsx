@@ -91,14 +91,14 @@ export default function HomePage() {
               Join the waitlist today and be the first to access NeoStepous AI when we launch.
             </p>
             <Dialog>
-              <DialogTrigger asChild>
+              
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-[#3B82F6] to-[#A855F7] hover:from-[#2563EB] hover:to-[#9333EA] transition-all duration-300 hover:scale-105"
                 >
                   Join Waitlist <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-              </DialogTrigger>
+              
               <DialogContent className="sm:max-w-[600px] bg-gray-900 border-gray-800">
                 <DialogHeader>
                   <DialogTitle className="text-2xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#A855F7] bg-clip-text text-transparent">
